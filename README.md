@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://hyzhu-oss.oss-cn-hangzhou.aliyuncs.com/images/logo.png" style="width:200px;" />
+<img src="https://hyzhu-oss.oss-cn-hangzhou.aliyuncs.com/md/202410102235230.png" style="width:200px;" />
 </p>
 <h1 align="center">Huanyou 的学习笔记</h1>
 <p align="center">
