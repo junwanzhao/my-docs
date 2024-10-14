@@ -49,7 +49,7 @@ export default defineConfig({
             },
         ],
         socialLinks: [
-            { icon: "github", link: "https://github.com/mqxu/InfinityX7" },
+            { icon: "github", link: "https://github.com/junwanzhao/my-docs" },
         ],
         sidebar: {
             "/SpringBoot/": [
