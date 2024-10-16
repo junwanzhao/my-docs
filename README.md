@@ -21,6 +21,6 @@
 
 ## 🔥 features
 
-- 从头开始，循序渐进地学习 Vue 3 和 TypeScript。
+- 从头开始，循序渐进地学习 Vue 3 和 SpringBoot。
 - 涵盖从组件设计到代码优化的实际开发经验。
-- 通过 VitePress 和 TypeScript,快速搭建高效、可维护的 Vue 3 应用。
+- 跟随课程，及时更新笔记，巩固学习。
