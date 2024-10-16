@@ -74,8 +74,8 @@ console.log("参数：", argv);
 node app.js tag=test name=node
 # 输出结果如下
 参数： [
-  'D:\\Development Tool\\nodejs\\node.exe',
-  'E:\\Projects\\frontend-study\\NodeJS\\node命令\\app.js',
+  '',
+  '',
   'tag=test',
   'name=node'
 ]
@@ -107,7 +107,7 @@ var config = {
 };
 module.exports = config;
 // b.js
-var config = require("./a.js");
+//var config = require("./a.js");
 console.log(config); // { name: '⻄蓝花' }
 ```
 
@@ -226,7 +226,7 @@ fs.readFile('', 'utf-8', (err, data) => {
 const fs = require("fs");
 try {
   const data = fs.readFileSync(
-    "E:/Projects/frontend-study/NodeJS/内置模块/test.txt",
+    //"E:/Projects/frontend-study/NodeJS/内置模块/test.txt",
     "utf-8"
   );
   console.log("⽂件内容", data);
@@ -242,7 +242,7 @@ const fs = require("fs");
 try {
   let content = "我是⽂件内容";
   fs.writeFileSync(
-    "E:/Projects/frontend-study/NodeJS/内置模块/test.txt",
+    //"E:/Projects/frontend-study/NodeJS/内置模块/test.txt",
     content
   );
 } catch (err) {
@@ -257,7 +257,7 @@ try {
 ```javascript
 const fs = require('fs')
 try {
-	let stats = fs.statSync('E:/Projects/frontend-study/NodeJS/内置模块/test.txt')
+	//let stats = fs.statSync('E:/Projects/frontend-study/NodeJS/内置模块/test.txt')
 	console.log(stats.isFile()) // 是否为⽂件
 	console.log(stats.isDirectory()) // 是否为⽂件夹
 	console.log(stats.size) // ⽂件⼤⼩ } catch (err) {
@@ -285,10 +285,10 @@ server.listen(3000, () => {
 
 ```bash
 node index.js
-server address: http://localhost:3000
+## server address: http://localhost:3000
 ```
 
-浏览器输入“http://localhost:3000”，可以看到网页中显示“hello world”
+浏览器输入`http://localhost:3000`，可以看到网页中显示“hello world”
 
 http.createServer()方法的回调函数有 2 个参数，第 1 个参数是请求对象 request，第 2 个参数是响应对象 response，它们是 http 服务器的核心。
 
@@ -363,7 +363,7 @@ axios.get("...");
 
 ```bash
 npm root -g
-D:\Development Tool\nvm\node_global\node_modules
+## D:\Development Tool\nvm\node_global\node_modules
 ```
 
 更新和删除全局依赖包与上面的原理相同，只需要加上参数 `-g `即可。
@@ -501,7 +501,7 @@ process.env.NODE_ENV=='production' // ⽣产环境
 当 Node.js 应用程序启动后，就可以自定义当前应用的环境变量，示例如下:
 
 ```javascript
-process.env.baseURL = "https://api.xxx.com";
+//process.env.baseURL = "https://api.xxx.com";
 console.log(process.env.baseURL); // 'https://api.xxx.com'
 ```
 
