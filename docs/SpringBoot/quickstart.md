@@ -106,6 +106,7 @@ Maven 应用建议使用这种启动方式，因为使用 Maven 命令启动可�
 
 ## 测试接口
 
-在浏览器中直接访问刚才编写的 /hello 接口: [http://localhost:8080/hello](http://localhost:8080/hello)
+在浏览器中直接访问刚才编写的 /hello 接口:
+`<a href="http://localhost:8080/hello" target="_blank" rel="noreferrer">http://localhost:8080/hello</a>`
 
 或者使用插件 Restful Tool2

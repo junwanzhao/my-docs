@@ -129,7 +129,7 @@ Node.js 是一个单线程的、基于事件循环的异步 !/0 框架，基于 
 
 ### 1. Node.js 开启了前端工程
 
-2015 年 Angular JS 创始团队推出了 Angular CLl。Angular CLl 是一款命令行工具，也被叫做脚手架工具，可以通过命令选择模板，快速创建运行项目，使前端可以运行在像“http://localhost:8080”这样的本地服务之下。
+2015 年 Angular JS 创始团队推出了 Angular CLl。Angular CLl 是一款命令行工具，也被叫做脚手架工具，可以通过命令选择模板，快速创建运行项目，使前端可以运行在像`http://localhost:8080`这样的本地服务之下。
 
 Angular CL 通过命令行创建和运行项目，这是前端工程化的开端。但是 Angular CLl 创建和运行项目的基础功能是 Node.js 提供的。Node.js 通过文件 API 生成项目，同时创建本地服务器挂载前端项目，使前端项目始终处在 Node.js 的运行环境之下。
 

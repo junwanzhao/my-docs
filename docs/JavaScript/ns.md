@@ -275,7 +275,7 @@ const server = http.createServer((request, response) => {
   response.end("hello world");
 });
 server.listen(3000, () => {
-  console.log("server address:http://localhost:3000");
+  //console.log("server address:http://localhost:3000");
 });
 ```
 
