@@ -2,7 +2,7 @@
   "name": "vitepress-project",
   "private": true,
   "type": "module",
-  "homepage": "https://my-docs-nu.vercel.app/", 
+  "homepage": "https://my-docs-c0ijlbaim-junwanzhaos-projects.vercel.app/", 
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
